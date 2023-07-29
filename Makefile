@@ -2,7 +2,7 @@ runserver:
 	python manage.py runserver
 
 tests:
-	poetry run pytest
+	pytest
 
 format:
 	black -l 120 .
