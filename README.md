@@ -14,6 +14,7 @@ from default_settings import *
 SECRET_KEY = "some-long-key"  # key can be generated here https://djecrety.ir/
 DEBUG = True
 ```
-Apply migrations: `python manage.py migrate`
-Run tests: `make tests`
-Start: `make runserver`
+
+- Apply migrations: `python manage.py migrate`
+- Run tests: `make tests`
+- Start: `make runserver`
