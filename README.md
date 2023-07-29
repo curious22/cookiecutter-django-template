@@ -1,20 +1,5 @@
-# {{cookiecutter.project_slug}}
-{{cookiecutter.project_short_description}}
+# Simple Django REST API template
+A simple template for building backend django rest api
 
-
-## Project requirements:
-- Django >= 4.2
-- django-rest-framework >= 3.14.0
-
-## Dev setup:
-Create *configs/settings.py* file with following content:
-```python
-from default_settings import *
-
-SECRET_KEY = "some-long-key"  # key can be generated here https://djecrety.ir/
-DEBUG = True
-```
-
-- Apply migrations: `python manage.py migrate`
-- Run tests: `make tests`
-- Start: `make runserver`
+- Install [cookiecutter](https://cookiecutter.readthedocs.io/en/stable/installation.html)
+- Usage: `cookiecutter https://github.com/curious22/cookiecutter-django-template`
