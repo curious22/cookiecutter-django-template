@@ -4,7 +4,7 @@
 
 ## Project requirements:
 - Django >= 4.2
-- django-rest-framework >= 3.14.0
+- django-rest-framework >= 3.15.0
 
 ## Dev setup:
 Create *configs/settings.py* file with following content:

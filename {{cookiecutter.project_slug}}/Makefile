@@ -2,7 +2,7 @@ runserver:
 	python manage.py runserver
 
 tests:
-	pytest -s
+	pyhon manage.py test
 
 format:
 	black -l 120 .
